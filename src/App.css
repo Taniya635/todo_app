@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;600&family=Lato:wght@400;700&family=Merriweather:wght@900&family=Preahvihear&family=Rubik:wght@400;500&display=swap');
+
+.App {
+  text-align: center;
+  font-family: 'Preahvihear', sans-serif;
+  background-image: url('background.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  margin: 0;
+
+
+  /* 
+ 
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 0; */
+
+}
+@media screen and (min-width:300px) and (max-width:600px) {
+  .App{
+    text-align: center;
+    font-family: 'Preahvihear', sans-serif;
+    background-image: url('background.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 50vh; 
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    top: 0;
+    margin: 0;
+  }
+}
+
+
+
+
+
+
+
